@@ -1,0 +1,4 @@
+verilog work "../../Lab4/bin2led7.v"
+verilog work "vga_controller_640_60.v"
+verilog work "../../Lab4/displayleds.v"
+verilog work "pong.v"

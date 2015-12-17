@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Wed Dec 09 17:40:13 2015
+# Process ID: 17988
+# Log file: X:/Downloads/sharar FPGA Pong/project/planAhead_run_1/planAhead.log
+# Journal file: X:/Downloads/sharar FPGA Pong/project/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {X:/Downloads/sharar FPGA Pong/project/pa.fromHdl.tcl}
+# create_project -name project -dir "X:/Downloads/sharar FPGA Pong/project/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "pong.ucf" [current_fileset -constrset]
+Adding file 'X:/Downloads/sharar FPGA Pong/project/pong.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../../Lab4/bin2led7.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vga_controller_640_60.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Lab4/displayleds.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {pong.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top pong $srcset
+# add_files [list {pong.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "X:/Downloads/Lab4/bin2led7.v" into library work
+Analyzing Verilog file "X:/Downloads/sharar FPGA Pong/project/vga_controller_640_60.v" into library work
+Analyzing Verilog file "X:/Downloads/Lab4/displayleds.v" into library work
+Analyzing Verilog file "X:/Downloads/sharar FPGA Pong/project/pong.v" into library work
+Loading clock regions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [X:/Downloads/sharar FPGA Pong/project/pong.ucf]
+Finished Parsing UCF File [X:/Downloads/sharar FPGA Pong/project/pong.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 5e106cdb
+open_rtl_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 566.863 ; gain = 172.523
+startgroup
+set_property package_pin T17 [get_ports ca]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports cb]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports cc]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports cd]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports ce]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports cf]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports cg]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {AN[0]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {AN[1]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {AN[2]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {AN[3]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {AN[2]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {AN[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {AN[0]}]
+endgroup
+save_design
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead

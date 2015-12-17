@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=X:\Downloads\sharar FPGA Pong\project\impact.xsl
+OUTFILE=X:\Downloads\sharar FPGA Pong\project\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=X:\Downloads\sharar FPGA Pong\project
+LICENSE=iMPACT
+USER_INFO=iMPACT

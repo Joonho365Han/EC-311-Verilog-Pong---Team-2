@@ -1,0 +1,36 @@
+# Specify color outputs:
+NET "B[0]" LOC = R7;
+NET "B[1]" LOC = T7;
+
+NET "G[0]" LOC = P8;
+NET "G[1]" LOC = T6;
+NET "G[2]" LOC = V6;
+
+NET "R[0]" LOC = U7;
+NET "R[1]" LOC = V7;
+NET "R[2]" LOC = N7;
+
+###############################
+# Specify sync outputs:
+NET "HS" LOC = N6;
+NET "VS" LOC = P7;
+NET "clk" LOC = V10;
+NET "rst" LOC = A8;
+
+
+NET "quadA" LOC = C4;
+NET "quadB" LOC = D9;
+
+# PlanAhead Generated physical constraints 
+
+NET "ca" LOC = T17;
+NET "cb" LOC = T18;
+NET "cc" LOC = U17;
+NET "cd" LOC = U18;
+NET "ce" LOC = M14;
+NET "cf" LOC = N14;
+NET "cg" LOC = L14;
+NET "AN[3]" LOC = P17;
+NET "AN[2]" LOC = P18;
+NET "AN[1]" LOC = N15;
+NET "AN[0]" LOC = N16;

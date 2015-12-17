@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Wed Dec 09 17:40:13 2015
+# Process ID: 17988
+# Log file: X:/Downloads/sharar FPGA Pong/project/planAhead_run_1/planAhead.log
+# Journal file: X:/Downloads/sharar FPGA Pong/project/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {X:/Downloads/sharar FPGA Pong/project/pa.fromHdl.tcl}
+startgroup
+set_property package_pin T17 [get_ports ca]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports cb]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports cc]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports cd]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports ce]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports cf]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports cg]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {AN[0]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {AN[1]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {AN[2]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {AN[3]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {AN[2]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {AN[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {AN[0]}]
+endgroup
+save_design
